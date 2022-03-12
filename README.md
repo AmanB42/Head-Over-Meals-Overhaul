@@ -3,7 +3,8 @@ A solo overhaul of a group project created in a webpage development class. Overh
 
 ## Navigation
 
-* The folder titled "Original" contains the files that were created in tandem with my seven group members. In order to launch the website, open FRAME.html.
-  * For the "Login" page, enter either "Aman", "Shaheer", "Anthony", "Ayman", "Puja", "Fariah", "Alex", "Jorge" for the username, and enter "group1" for the password.
-
-* .
+* The folder titled "Original" contains the files that were created in tandem with my seven group members. 
+  * Open FRAME.html to launch the website.
+  * For the Login page:
+   * Usernames are: "Aman", "Shaheer", "Anthony", "Ayman", "Puja", "Fariah", "Alex", or "Jorge" (no quotes)
+   * Password: group1
