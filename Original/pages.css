@@ -1,0 +1,325 @@
+/* Login.html */
+
+#first{
+	background-image: url(https://img.buzzfeed.com/buzzfeed-static/static/2020-06/11/14/asset/dcb5220da65d/sub-buzz-86-1591886919-8.jpg);
+	background-size: 100% 100%;
+	color: white;
+}
+
+#first2{background-color: skyblue;
+	margin-top:50px;
+	margin-left:10px;
+	margin-right:10px}
+
+#title{text-align: center;
+	color: black}
+
+table{width: 100%;}
+
+table td{width: 50%}
+
+#loginbutton{
+	background-color: #2986cc;
+  	border: 1;
+	color: white;
+  	padding: 10px 22px;
+	text-align: center;
+  	text-decoration: none;
+ 	display: inline-block;
+	font-size: 10px;}
+
+/* Background chef information and 3 recipie pages */
+
+.bgpages {
+  background-image: url(https://wallpaperaccess.com/full/692098.png);
+}
+
+/* Home Button */
+
+#homebutton{
+	background-color: #2986cc;
+  	border: 1;
+	color: white;
+  	padding: 10px 22px;
+	text-align: center;
+  	text-decoration: none;
+ 	display: inline-block;
+	font-size: 10px;}
+
+/* chef information.html */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+/* Level 1 */
+#bread {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 280px;
+	height: 400px;
+  }
+
+/* Level 2 */
+#chicken {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 480px;
+	height: 400px;
+  }
+
+/* Level 3 */
+#ravioli {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 400px;
+  }
+
+
+/* Shop */
+
+.Card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: cursive;
+background-color:#d6cadd;
+float:left;
+margin-left: 10em;
+}
+
+.Card1 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: cursive;
+background-color:#d6cadd;
+float:right;
+margin-right: 10em;
+}
+
+.Card2 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: cursive;
+background-color:#d6cadd;
+float:center;
+}
+
+.Card3 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: cursive;
+background-color:#d6cadd;
+float:center;
+}
+
+.price {
+color: grey;
+font-size: 21px;
+}
+
+.price {
+color: grey;
+font-size: 21px;
+}
+
+.Card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.Card3 button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.Card button:hover {
+opacity: 0.7;
+}
+
+#shopbody {
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm283-nunny-066_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=3d462e0b28a86d8929f61102bbd94a84);
+  background-size: 100% 100%;
+}
+
+
+/* FAQ */
+
+:root {
+	/* dark shades of primary color*/
+	--clr-primary-1: hsl(205, 86%, 17%);
+	--clr-primary-2: hsl(205, 77%, 27%);
+	--clr-primary-3: hsl(205, 72%, 37%);
+	--clr-primary-4: hsl(205, 63%, 48%);
+	/* primary/main color */
+	--clr-primary-5: #49a6e9;
+	/* lighter shades of primary color */
+	--clr-primary-6: hsl(205, 89%, 70%);
+	--clr-primary-7: hsl(205, 90%, 76%);
+	--clr-primary-8: hsl(205, 86%, 81%);
+	--clr-primary-9: hsl(205, 90%, 88%);
+	--clr-primary-10: hsl(205, 100%, 96%);
+	/* darkest grey - used for headings */
+	--clr-grey-1: hsl(209, 61%, 16%);
+	--clr-grey-2: hsl(211, 39%, 23%);
+	--clr-grey-3: hsl(209, 34%, 30%);
+	--clr-grey-4: hsl(209, 28%, 39%);
+	/* grey used for paragraphs */
+	--clr-grey-5: hsl(210, 22%, 49%);
+	--clr-grey-6: hsl(209, 23%, 60%);
+	--clr-grey-7: hsl(211, 27%, 70%);
+	--clr-grey-8: hsl(210, 31%, 80%);
+	--clr-grey-9: hsl(212, 33%, 89%);
+	--clr-grey-10: hsl(210, 36%, 96%);
+	--clr-white: #fff;
+	--clr-red-dark: hsl(360, 67%, 44%);
+	--clr-red-light: hsl(360, 71%, 66%);
+	--clr-green-dark: hsl(125, 67%, 44%);
+	--clr-green-light: hsl(125, 71%, 66%);
+	--clr-gold: #c59d5f;
+	--clr-black: #222;
+	--ff-primary: "Roboto", sans-serif;
+	--ff-secondary: "Open Sans", sans-serif;
+	--transition: all 0.3s linear;
+	--spacing: 0.25rem;
+	--radius: 0.5rem;
+	--light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	--max-width: 1170px;
+	--fixed-width: 620px;
+  }
+  
+  #faq {
+	font-family: var(--ff-secondary);
+	background: var(--clr-grey-10);
+	color: var(--clr-grey-1);
+	line-height: 1.5;
+	font-size: 0.875rem;
+  }
+  
+  h1,h2,h3,h4 {
+	letter-spacing: var(--spacing);
+	text-transform: capitalize;
+	line-height: 1.25;
+	margin-bottom: 0.75rem;
+	font-family: var(--ff-primary);
+  }
+  #GA {
+	font-size: 3rem;
+  }
+  
+  p {
+	margin-bottom: 1.25rem;
+	color: var(--clr-black-5);
+  }
+  
+  .btn:hover {
+	color: var(--clr-white);
+	background: var(--clr-black);
+  }
+  
+  .section-center {
+	width: 90vw;
+	margin: 0 auto;
+	max-width: 1170px;
+  }
+  main {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+  }
+  .title {
+	margin-top: 15vh;
+	margin-bottom: 4rem;
+  }
+  .title h2 {
+	color: var(--clr-gold);
+	font-family: "Great Vibes", cursive;
+	text-align: center;
+  }
+  .section-center {
+	max-width: var(--fixed-width);
+  }
+  .question {
+	background: var(--clr-white);
+	border-radius: var(--radius);
+	box-shadow: var(--light-shadow);
+	padding: 1.5rem 1.5rem 0 1.5rem;
+	margin-bottom: 2rem;
+  }
+  .question-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: capitalize;
+	padding-bottom: 1rem;
+  }
+  .question-title p {
+	margin-bottom: 0;
+	letter-spacing: var(--spacing);
+	color: var(--clr-grey-1);
+  }
+  .question-btn {
+	font-size: 1.5rem;
+	background: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	color: var(--clr-gold);
+	transition: var(--transition);
+  }
+  .question-btn:hover {
+	transform: rotate(90deg);
+  }
+  .question-text {
+	padding: 1rem 0 1.5rem 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .question-text p {
+	margin-bottom: 0;
+  }
+  .question-text {
+	display: none;
+  }
+  .show-text .question-text {
+	display: block;
+  }
+  .minus-icon {
+	display: none;
+  }
+  .show-text .minus-icon {
+	display: inline;
+  }
+  .show-text .plus-icon {
+	display: none;
+  }

@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" href="pages.css">
+</head>
+
+<body id="shopbody">
+<h1 style="text-align:center" "font-size:100" "font-family:arial" >Shopping Cart</h1>
+
+<div class="Card">
+  <img src="Images/book.jpg" alt="Cookbook" style="width:100%">
+  <h1> Cookbook </h1>
+    <p class="price"> $19.99 </p>
+    <p> Discover hundreds of fun and healthy recipes with our own chef-certified Cookbook! </p>
+</div>
+
+<br>
+ 
+<div class="Card1">
+  <img src="Images/pot.jpeg" alt="Complete Package" style="width:100%">
+  <h1> Complete Package </h1>
+    <p class="price"> $49.99 </p>
+    <p> Get everything you need from our one-stop-shop complete utensil package! </p>
+</div>
+
+<br>
+
+<div class="Card2">
+  <img src="Images/Shirt.png" alt="Shirt" style="width:100%">
+  <h1> Custom Shirt </h1>
+    <p class="price"> $24.99 </p>
+    <p> Rock our new Head Over Meals T-shirts! </p>
+</div>
+
+<br>
+
+<div class="Card3">
+  <h3> Add to Cart </h3>
+  Cookbook <input type="number" id="cb" name="Cookbook" min="1" max="10">
+    <br>
+  Complete Package <input type="number" id="cp" name="Complete Package" min="1" max="10">
+    <br>
+  Shirt <input type="number" id="sh" name="Shirt" min="1" max="10">
+    <br>
+  <input type="button" onclick = "addition()" value=" Total"/>
+  <button onclick="addtocart()">$<span id="checkout"></button>
+</div> 
+
+<script src="webpages.js"> </script>
+
+<p align="center"> Puja Archarya, Fariah S. Ahmed, & Aman Batra </p>
+<p align="center"><a href="FRAME.html" target="_parent"><input type="button" onclick="Home()" Value= "Home" id="homebutton"></a></p>
+
+</body>
+</html>

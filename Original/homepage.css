@@ -1,0 +1,153 @@
+/* Header.html */
+
+#title {
+  font-size: 50px;
+  color: white;
+  font-family: cursive;
+}
+
+#headerbackground {
+  background-image: url(https://i.pinimg.com/564x/83/1e/80/831e80884bd22d280b264fbdf712913b.jpg);
+  overflow: hidden;
+}
+
+
+/* Left.html */
+
+#leftbody {
+  background-image: url(https://i.pinimg.com/564x/83/1e/80/831e80884bd22d280b264fbdf712913b.jpg);
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;  /* overflow-x hidden will hide the scrollbar in smaller screens */
+  padding-top: 20px;
+  font-family:cursive;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  border: 0px;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;              /* font color of sidebar options */
+  display: block;
+  background-color: transparent;
+  font-family:cursive
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: lightgreen;             /* font color of buttons when they are hovered over */
+}
+
+.main {
+  margin-left: 200px;
+  font-size: 20px; 
+  padding: 0px 10px;
+}
+
+.active {
+  background-color: transparent;
+}
+
+.dropdown-container {
+  display: none;
+  padding-left: 8px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#leftfont1 {
+  font-size: 18px;
+  font-family:cursive;
+}
+
+#leftfont2 {
+  font-size: 18px;
+  font-family:cursive;
+}
+
+#leftfont3 {
+  font-size: 18px;
+  font-family:cursive;
+}
+
+
+/* Center.html */
+
+#centerbackground {
+  background-image: url(https://wallpaperbat.com/img/49-food-wallpaper-top-free-food-background.jpg);
+  padding: 20px;
+  font-family: cursive;
+}
+
+#trendingfood {
+margin-right: 50%;
+}
+
+
+/* Right.html */
+
+.fa {
+    padding: 25px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;  
+    margin: 10px;                   
+    border-radius: 50%;         /* border radius % changes how circular/square the border is, more circular with higher % */
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+} 
+    
+.fa-twitter {  
+    background: #55ACEE;
+    color: white;
+} 
+    
+.fa-instagram {     
+    /* Instagram's background is more complicated due to the red and orange blend color the logo has */
+    color: white;
+    background: #f09433; 
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ) 
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+#rightbody {
+  background-image: url(https://i.imgur.com/8mv2hxF.jpg); 
+  background-position: 100% 0%;
+}
+
+#socialmedia {
+  color:white;
+  font-family:cursive;
+  text-align: center;
+}
+
+
+/* Footer.html */
+
+#footerbackground {
+  background-image: url(https://i.imgur.com/y1Tis8x.jpg);
+  color:white;
+  font-family:cursive;
+  overflow:hidden;
+}
